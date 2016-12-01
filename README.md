@@ -35,11 +35,11 @@ mysql -uUSERNAME -pUSERPASSWORD < /path/to/project/models/db/dump.sql
 
 Please make sure that directories `runtime` and `web/assets` are writable for web process
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
+Now you should be able to access the application through the following URL, assuming `playtox` is the directory
 directly under the Web root.
 
 ~~~
-http://localhost/basic/web/
+http://localhost/playtox/web/
 ~~~
 
 Please note! New user's email confirmation is disabled for this project!
