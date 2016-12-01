@@ -63,7 +63,7 @@ class PurchaseSearch extends Purchase{
                             'desc' => ['product.name' => SORT_DESC],
                             'label' => 'Product Name'],
 
-                ],($dataProvider->getSort())->attributes)
+                ],$dataProvider->getSort()->attributes)
         ]);
 
         $this->load($params);
